@@ -1,5 +1,7 @@
 {% autoescape off %}
 
+Register Successfully
+
 Dear {{username}},
 
 I want to thank you for being a loyal Boilerplate customer. As one of our first clients, you helped our company get off the ground. It was a real pleasure helping you bring your vision to life in what was then your new home.

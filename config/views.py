@@ -5,14 +5,11 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 
 
 # Dashboard
-class DashboardView(LoginRequiredMixin, View):
-    def get(self, request):
-        print(request.session)
-        greeting = {}
-        greeting['title'] = "Dashboard"
-        greeting['pageview'] = "Boilerplate"
-        return render(request, 'menu/index.html', greeting)
 
+class HomeView(View):
+    def get(self, request):
+        greeting = {'title': "Home", 'pageview': "Boilerplate"}
+        return render(request, 'pages/index.html', greeting)
 
 def error_handler(request, filename):
     return render(request, filename, {}, content_type='text/html')

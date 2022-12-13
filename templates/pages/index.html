@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{title}} | Boilerplate - Admin & Dashboard Template</title>
+	<meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+	<meta content="Boilerplate" name="author" />
+	<!-- App favicon -->
+	<link rel="shortcut icon" href="{% static 'images/favicon.ico' %}">
+    <!--Extra Css-->
+    {% block extra_css %}{% endblock extra_css %}
+	<!-- Bootstrap Css -->
+	<link href="{% static 'css/bootstrap.min.css' %}" id="bootstrap-style" rel="stylesheet" type="text/css" />
+	<!-- Icons Css -->
+	<link href="{% static 'css/icons.min.css' %}" rel="stylesheet" type="text/css" />
+	<!-- App Css-->
+	<link href="{% static 'css/app.min.css' %}" id="app-style" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>Boilerplate Django</h1>
+</body>
+<!-- JAVASCRIPT -->
+<script src="{% static 'libs/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'libs/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'libs/metismenu/metisMenu.min.js' %}"></script>
+<script src="{% static 'libs/simplebar/simplebar.min.js' %}"></script>
+<script src="{% static 'libs/node-waves/waves.min.js' %}"></script>
+</html>

@@ -33,7 +33,7 @@
                                         <div>
                                             <div class="text-center">
                                                 <div>
-                                                    <a href="{% url 'dashboard' %}" class="">
+                                                    <a href="{% url 'dashboard:home' %}" class="">
                                                         <img src="{% static 'images/logo-dark.png' %}" alt="" height="20" class="auth-logo logo-dark mx-auto">
                                                         <img src="{% static 'images/logo-light.png' %}" alt="" height="20" class="auth-logo logo-light mx-auto">
                                                     </a>
@@ -52,7 +52,7 @@
                                                             <h4 class="fw-semibold">Success !</h4>
                                                             <p class="text-muted"><strong>Your are  successfully logout.</strong></p>
                                                             <div class="mt-4">
-                                                                <a href="{% url 'dashboard' %}" class="btn btn-success">Back to Home</a>
+                                                                <a href="{% url 'dashboard:home' %}" class="btn btn-success">Back to Home</a>
                                                             </div>
                                                         </div>
                                                     </div>
