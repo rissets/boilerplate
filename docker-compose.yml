@@ -1,0 +1,29 @@
+version: '3.9'
+services:
+  db:
+    image: postgres
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    environment:
+        POSTGRES_PASSWORD: password
+        POSTGRES_USER: boilerplateuser
+        POSTGRES_DB: boilerplate
+  web:
+    build:
+        context: .
+        dockerfile: Dockerfile
+    command: python manage.py runserver
+    ports:
+        - "8000:8000"
+    environment:
+        - SECRET_KEY=secret
+        - DJANGO_SETTINGS_MODULE=config.settings.development
+
+          # Database
+        - DB_NAME=boilerplate
+        - DB_USER=boilerplateuser
+        - DB_PASSWORD=password
+        - DB_HOST=localhost
+        - DB_PORT=5433
+    depends_on:
+      - db
