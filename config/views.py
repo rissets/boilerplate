@@ -11,6 +11,7 @@ class HomeView(View):
         greeting = {'title': "Home", 'pageview': "Boilerplate"}
         return render(request, 'pages/index.html', greeting)
 
+
 def error_handler(request, filename):
     return render(request, filename, {}, content_type='text/html')
 
