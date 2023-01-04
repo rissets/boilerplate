@@ -138,13 +138,13 @@ MESSAGE_TAGS = {
 }
 
 # SMTP Configure
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'xxx'
-EMAIL_HOST_PASSWORD = 'xxx'
-DEFAULT_FROM_EMAIL = 'xxx'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+# EMAIL_HOST_USER = 'xxx'
+# EMAIL_HOST_PASSWORD = 'xxx'
+# DEFAULT_FROM_EMAIL = 'xxx'
 
 LOGIN_URL = 'auth-login'
 LOGIN_REDIRECT_URL = 'auth-login'
