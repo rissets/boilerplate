@@ -1,0 +1,184 @@
+{
+  "status": "done",
+  "assets": {
+    "2efb66fa25e6169c20f0.jpg": {
+      "name": "2efb66fa25e6169c20f0.jpg",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\2efb66fa25e6169c20f0.jpg"
+    },
+    "base.bundle.js": {
+      "name": "base.bundle.js",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\base.bundle.js"
+    },
+    "eaf0e118f276e29f3539.jpg": {
+      "name": "eaf0e118f276e29f3539.jpg",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\eaf0e118f276e29f3539.jpg"
+    },
+    "extra.bundle.js": {
+      "name": "extra.bundle.js",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\extra.bundle.js"
+    },
+    "fonts/en/0427bf003db0d68f981c.svg": {
+      "name": "fonts/en/0427bf003db0d68f981c.svg",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\0427bf003db0d68f981c.svg"
+    },
+    "fonts/en/0747be4cba2f8600544f.eot": {
+      "name": "fonts/en/0747be4cba2f8600544f.eot",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\0747be4cba2f8600544f.eot"
+    },
+    "fonts/en/09c9c870ef8f9cffcc8f.ttf": {
+      "name": "fonts/en/09c9c870ef8f9cffcc8f.ttf",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\09c9c870ef8f9cffcc8f.ttf"
+    },
+    "fonts/en/0cde50f90fe61871de0a.woff?v=3.13": {
+      "name": "fonts/en/0cde50f90fe61871de0a.woff?v=3.13",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\0cde50f90fe61871de0a.woff"
+    },
+    "fonts/en/0e4e0b3da55fa7faa77b.ttf?v=5.9.55": {
+      "name": "fonts/en/0e4e0b3da55fa7faa77b.ttf?v=5.9.55",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\0e4e0b3da55fa7faa77b.ttf"
+    },
+    "fonts/en/15bbe3b76e0bedd9c4d5.woff2?v=3.13": {
+      "name": "fonts/en/15bbe3b76e0bedd9c4d5.woff2?v=3.13",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\15bbe3b76e0bedd9c4d5.woff2"
+    },
+    "fonts/en/2505c0d4b34ffca98f8f.woff2?v=3.13": {
+      "name": "fonts/en/2505c0d4b34ffca98f8f.woff2?v=3.13",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\2505c0d4b34ffca98f8f.woff2"
+    },
+    "fonts/en/31015e861aeb30ff8355.woff2": {
+      "name": "fonts/en/31015e861aeb30ff8355.woff2",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\31015e861aeb30ff8355.woff2"
+    },
+    "fonts/en/32267f3b4db33a7c85ee.ttf": {
+      "name": "fonts/en/32267f3b4db33a7c85ee.ttf",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\32267f3b4db33a7c85ee.ttf"
+    },
+    "fonts/en/3c747ac4004be3a30e98.woff2?v=3.13": {
+      "name": "fonts/en/3c747ac4004be3a30e98.woff2?v=3.13",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\3c747ac4004be3a30e98.woff2"
+    },
+    "fonts/en/53f53f50a1b2033979f5.eot": {
+      "name": "fonts/en/53f53f50a1b2033979f5.eot",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\53f53f50a1b2033979f5.eot"
+    },
+    "fonts/en/53f53f50a1b2033979f5.eot?v=5.9.55": {
+      "name": "fonts/en/53f53f50a1b2033979f5.eot?v=5.9.55",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\53f53f50a1b2033979f5.eot"
+    },
+    "fonts/en/5818bbd07dfd7095920a.ttf": {
+      "name": "fonts/en/5818bbd07dfd7095920a.ttf",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\5818bbd07dfd7095920a.ttf"
+    },
+    "fonts/en/5b53c519b3184a74a98c.woff2?v=3.13": {
+      "name": "fonts/en/5b53c519b3184a74a98c.woff2?v=3.13",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\5b53c519b3184a74a98c.woff2"
+    },
+    "fonts/en/5ddcd2c120d358ee10d7.eot?t=1587359857360": {
+      "name": "fonts/en/5ddcd2c120d358ee10d7.eot?t=1587359857360",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\5ddcd2c120d358ee10d7.eot"
+    },
+    "fonts/en/607a77859353c0cc1882.eot": {
+      "name": "fonts/en/607a77859353c0cc1882.eot",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\607a77859353c0cc1882.eot"
+    },
+    "fonts/en/7eefe04dc985dd4ad38b.eot": {
+      "name": "fonts/en/7eefe04dc985dd4ad38b.eot",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\7eefe04dc985dd4ad38b.eot"
+    },
+    "fonts/en/7f392f1e4787b46b3e8b.eot": {
+      "name": "fonts/en/7f392f1e4787b46b3e8b.eot",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\7f392f1e4787b46b3e8b.eot"
+    },
+    "fonts/en/8278d2bdbdb361299d59.svg": {
+      "name": "fonts/en/8278d2bdbdb361299d59.svg",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\8278d2bdbdb361299d59.svg"
+    },
+    "fonts/en/8b892b7904a39e37c53d.woff": {
+      "name": "fonts/en/8b892b7904a39e37c53d.woff",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\8b892b7904a39e37c53d.woff"
+    },
+    "fonts/en/9451d5fee89b51a20f8a.woff2": {
+      "name": "fonts/en/9451d5fee89b51a20f8a.woff2",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\9451d5fee89b51a20f8a.woff2"
+    },
+    "fonts/en/94aaa8d5c9aedcf1daf5.svg": {
+      "name": "fonts/en/94aaa8d5c9aedcf1daf5.svg",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\94aaa8d5c9aedcf1daf5.svg"
+    },
+    "fonts/en/a8a7993aa066f9a2151a.svg?t=1587359857360": {
+      "name": "fonts/en/a8a7993aa066f9a2151a.svg?t=1587359857360",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\a8a7993aa066f9a2151a.svg"
+    },
+    "fonts/en/a940d584750708f5435c.woff": {
+      "name": "fonts/en/a940d584750708f5435c.woff",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\a940d584750708f5435c.woff"
+    },
+    "fonts/en/b5e55622baba6dd1a060.ttf?t=1587359857360": {
+      "name": "fonts/en/b5e55622baba6dd1a060.ttf?t=1587359857360",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\b5e55622baba6dd1a060.ttf"
+    },
+    "fonts/en/c3146b3524e97475c094.ttf": {
+      "name": "fonts/en/c3146b3524e97475c094.ttf",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\c3146b3524e97475c094.ttf"
+    },
+    "fonts/en/c52405129ae48097815d.woff2": {
+      "name": "fonts/en/c52405129ae48097815d.woff2",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\c52405129ae48097815d.woff2"
+    },
+    "fonts/en/c7c0091f1b2b06064572.woff?v=3.13": {
+      "name": "fonts/en/c7c0091f1b2b06064572.woff?v=3.13",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\c7c0091f1b2b06064572.woff"
+    },
+    "fonts/en/cc6a88688869161eb836.woff?v=3.13": {
+      "name": "fonts/en/cc6a88688869161eb836.woff?v=3.13",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\cc6a88688869161eb836.woff"
+    },
+    "fonts/en/d72ac20cd8317e025202.woff?t=1587359857360": {
+      "name": "fonts/en/d72ac20cd8317e025202.woff?t=1587359857360",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\d72ac20cd8317e025202.woff"
+    },
+    "fonts/en/d8e8e0f7931afa097409.woff?v=5.9.55": {
+      "name": "fonts/en/d8e8e0f7931afa097409.woff?v=5.9.55",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\d8e8e0f7931afa097409.woff"
+    },
+    "fonts/en/e2781bc61ec2a5748045.svg": {
+      "name": "fonts/en/e2781bc61ec2a5748045.svg",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\e2781bc61ec2a5748045.svg"
+    },
+    "fonts/en/e9db4005489e24809b62.woff2?v=5.9.55": {
+      "name": "fonts/en/e9db4005489e24809b62.woff2?v=5.9.55",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\e9db4005489e24809b62.woff2"
+    },
+    "fonts/en/ee26f57bc9e3619b022b.woff": {
+      "name": "fonts/en/ee26f57bc9e3619b022b.woff",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\ee26f57bc9e3619b022b.woff"
+    },
+    "fonts/en/f19dcc0358afed69d277.woff": {
+      "name": "fonts/en/f19dcc0358afed69d277.woff",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\f19dcc0358afed69d277.woff"
+    },
+    "fonts/en/f45d28a142788d05eb6a.woff2?t=1587359857360": {
+      "name": "fonts/en/f45d28a142788d05eb6a.woff2?t=1587359857360",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\f45d28a142788d05eb6a.woff2"
+    },
+    "fonts/en/fc49d131f795b4d48f26.woff?v=3.13": {
+      "name": "fonts/en/fc49d131f795b4d48f26.woff?v=3.13",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\fonts\\en\\fc49d131f795b4d48f26.woff"
+    },
+    "index.bundle.js": {
+      "name": "index.bundle.js",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\index.bundle.js"
+    }
+  },
+  "chunks": {
+    "base": [
+      "base.bundle.js"
+    ],
+    "extra": [
+      "extra.bundle.js"
+    ],
+    "index": [
+      "index.bundle.js"
+    ]
+  }
+}

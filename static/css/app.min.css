@@ -29,7 +29,7 @@
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/inter-bold.woff2?v=3.13) format("woff2"),
-    url(../fonts/iter-bold.woff?v=3.13) format("woff");
+    url(../fonts/inter-bold.woff?v=3.13) format("woff");
 }
 #page-topbar {
   position: fixed;

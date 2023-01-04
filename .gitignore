@@ -918,4 +918,13 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Node modules
+node_modules/
+/node_modules
+node_modules/
+
+static/bundles/
+static/bundles
+static/bundles/*
+
 # End of https://www.toptal.com/developers/gitignore/api/pycharm,visualstudiocode,pycharm+all,pythonvanilla,pycharm+iml,django,python,windows,venv,virtualenv,dotenv,node,react,reactnative
