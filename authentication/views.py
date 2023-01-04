@@ -1,6 +1,6 @@
 from django.shortcuts import redirect, render
 from django.views import View
-from authentication.forms import UserRegistrationForm, UserLoginForm, RecoverPasswordForm, LockScreenForm
+from .forms import UserRegistrationForm, UserLoginForm, RecoverPasswordForm, LockScreenForm
 from django.http import JsonResponse, HttpResponse
 from django.template.loader import render_to_string
 from django.core.mail import send_mail
