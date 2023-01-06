@@ -1,4 +1,4 @@
-// Javascript
+
 import 'bootstrap/dist/js/bootstrap.min.js';
 import 'metismenu/dist/metisMenu.min.js';
 import 'simplebar/dist/simplebar.min.js';

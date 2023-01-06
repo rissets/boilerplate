@@ -5,6 +5,10 @@
       "name": "2efb66fa25e6169c20f0.jpg",
       "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\2efb66fa25e6169c20f0.jpg"
     },
+    "authentication.bundle.js": {
+      "name": "authentication.bundle.js",
+      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\authentication.bundle.js"
+    },
     "base.bundle.js": {
       "name": "base.bundle.js",
       "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\base.bundle.js"
@@ -171,6 +175,9 @@
     }
   },
   "chunks": {
+    "authentication": [
+      "authentication.bundle.js"
+    ],
     "base": [
       "base.bundle.js"
     ],
