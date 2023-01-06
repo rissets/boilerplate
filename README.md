@@ -18,6 +18,15 @@ I have found that I often start a new project with the same basic setup. I have 
     ```
 2. Run in Docker ([see below](#setup-django-boilerplate-with-docker))
 3. Run in Local ([see below](#setup-django-boilerplate-with-local))
+4. Npm install
+    ```shell
+    npm install
+    ```
+5. Run npm build
+    ```shell
+    npm run build
+    ```
+
 
 #### Setup Django Boilerplate with Docker
 - Build and run the docker container
