@@ -1,14 +1,14 @@
 // Javascript
-import 'jquery';
-import 'bootstrap';
-import 'metismenu';
-import 'simplebar';
-import 'node-waves';
-// import '../js/app.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import 'metismenu/dist/metisMenu.min.js';
+import 'simplebar/dist/simplebar.min.js';
+import 'node-waves/dist/waves.min.js';
 
-
-// # Css
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../css/bootstrap.min.css';
 import '../css/icons.min.css';
 import '../css/app.min.css';
+
+
+
+window.jQuery = window.$ = require('jquery');
 

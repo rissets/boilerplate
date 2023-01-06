@@ -13,10 +13,6 @@
       "name": "base.bundle.js",
       "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\base.bundle.js"
     },
-    "bootstrap_css.bundle.js": {
-      "name": "bootstrap_css.bundle.js",
-      "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\bootstrap_css.bundle.js"
-    },
     "eaf0e118f276e29f3539.jpg": {
       "name": "eaf0e118f276e29f3539.jpg",
       "path": "D:\\Dev\\Personal\\boilerplate_project\\boilerplate\\static\\bundles\\eaf0e118f276e29f3539.jpg"
@@ -184,9 +180,6 @@
     ],
     "base": [
       "base.bundle.js"
-    ],
-    "bootstrap_css": [
-      "bootstrap_css.bundle.js"
     ],
     "extra": [
       "extra.bundle.js"

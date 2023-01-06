@@ -10,7 +10,7 @@ module.exports = {
     target: 'web',
     mode: 'development',
     entry: {
-        bootstrap_css: './static/css/bootstrap.min.css',
+        // bootstrap_css: './static/css/bootstrap.min.css',
         index : './static/index/',
         base : './static/dashboard/base.js',
         extra : './static/dashboard/extra.js',
