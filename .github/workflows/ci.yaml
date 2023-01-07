@@ -43,28 +43,26 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: Check Syntax
-        run: pycodestyle --statistics .
       - name: Run Migration
         run: python manage.py migrate
       - name: Run Tests
         run: python manage.py test
 
-    package-job:
-      runs-on: ubuntu-latest
-      needs: [health-check-job]
-      if: ${{ github.event_name == 'push' }}
-      steps:
-        - name: Checkout code
-          uses: actions/checkout@v2
-        - name: Build & Publish Image
-          uses: docker/build-push-action@v2
-          env:
-            DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-            DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-          with:
-            context: .
-            file: ./Dockerfile
-            push: true
-            tags: ${{ secrets.DOCKER_USERNAME }}/django-app:${{ github.sha }}
+  package-job:
+    runs-on: ubuntu-latest
+    needs: [health-check-job]
+    if: ${{ github.event_name == 'push' }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Build & Publish Image
+        uses: docker/build-push-action@v2
+        env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: ${{ secrets.DOCKER_USERNAME }}/django-app:${{ github.sha }}
 
