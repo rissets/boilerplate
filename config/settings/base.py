@@ -3,17 +3,20 @@ from pathlib import Path
 from django.contrib.messages import constants as messages
 from environ import environ
 
+
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 env = environ.Env()
 environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
+SECRET_KEY = 'iw@m4xnf4))^gf-d_g5w*b(e!er78!6=$5p8n@77mg(&^r7a99'
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
+
 
 # Application definition
 
