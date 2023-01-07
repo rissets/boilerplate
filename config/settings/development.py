@@ -1,5 +1,4 @@
 from .base import *
-from environ import environ
 
 import sys
 
@@ -46,10 +45,8 @@ if os.getenv('GITHUB_WORKFLOW'):
             'PORT': '5432',
         }
     }
-    SECRET_KEY = os.getenv('SECRET_KEY')
 else:
-    env = environ.Env()
-    environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
+
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
@@ -60,4 +57,3 @@ else:
             'PORT': 5432,
         }
     }
-    SECRET_KEY = env('SECRET_KEY')
