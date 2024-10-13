@@ -98,7 +98,7 @@
     "spectrum-colorpicker2": "^2.0.9",
     "sweetalert2": "^11.1.11",
     "table-edits": "^0.0.3",
-    "tinymce": "^5.10.9",
+    "tinymce": "^7.2.0",
     "toastr": "^2.1.4",
     "twitter-bootstrap-wizard": "^1.2.0"
   }
